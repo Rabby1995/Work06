@@ -204,6 +204,7 @@
     }
     #header .header_bottom {
         padding-top: 5px;
+        width:100%;
     }
     #header .header_bottom h1{margin-bottom:5px}
     #footer .foot_bottom .foot_btm_right{
@@ -222,4 +223,26 @@
         margin-bottom: 100px;
     }
     #self_area .self_top p{width:100%}
+}
+@media screen and (max-width:430px){
+    #header{
+        padding-bottom:190px;
+    }
+    h1{
+        font-size:18px;
+    }
+    a,p{font-size:12px}
+    #header .header_bottom a{margin-bottom:10px;}
+    #header .header_top .logo a {
+        padding-left: 25px;
+        font-size: 20px;
+        background-size: 20px;
+    }
+    #service .sr_left{width:100%}
+    #service a.lr_more{float:left !important ;margin-top:10px;}
+    #footer .foot_top .text-right{max-width: 35.667%;margin-top:10px}
+    #footer .foot_top .text-right h3{font-size:20px}
+    #footer .foot_top .text-right h5{font-size:14px}
+    #dom_srch .dom_input{padding:10px 10px}
+    #dom_srch a.d_srch{bottom:5px}
 }
